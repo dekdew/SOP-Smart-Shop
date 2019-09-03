@@ -4,7 +4,7 @@ Smart Shop project for Spring Boot
 ![](https://user-images.githubusercontent.com/32861458/64203290-4a2b4000-cebd-11e9-8fe8-b626b2b58d9d.jpg)
 
 
-## ⚙️ Service
+## ⚙️ Services
 
 ### ⭐ View all menu
 
