@@ -17,7 +17,9 @@ Responses:
 		    "brownies": [{"id": 1,"topping": "Tahini swirl"},{"id": 2,"topping": "Condensed milk"},{"id": 3,"topping": "Jam"}],
 		    "price": 89
 	    },
+	    
 	    ...
+	    
 	    {
 		    "name": "Set E",
 		    "details": "A 12 brownies set include all topping.",
