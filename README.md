@@ -26,7 +26,8 @@ Responses:
 		    "name": "Set E",
 		    "details": "A 12 brownies set include all topping.",
 		    "brownies": [{"id": 1,"topping": "Tahini swirl"},{"id": 2,"topping": "Condensed milk"},{"id": 3,"topping": "Jam"},{"id": 4,"topping": "Peppermint patties"},{"id": 5,"topping": "Ritz crackers"},{"id": 6,"topping": "Oreos"},{"id": 7,"topping": "Chocolate streusel"},{"id": 8,"topping": "Peanut butter cookie dough"},{"id": 9,"topping": "Black bottom"},{"id": 10,"topping": "Salted caramel"},{"id": 11,"topping": "Matcha glaze"},{"id": 12,"topping": "Nutella fudge"}],
-		    "price": 349}
+		    "price": 349
+	    }
     ]
 
 ### ⭐ View menu by ID
