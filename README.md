@@ -185,7 +185,7 @@ Example response :
 `Order 73 has been placed.`
 
 ### ⭐ Delete order
-URL : `/orders`
+URL : `/orders{id}`
 
 Method : `DELETE`
 
