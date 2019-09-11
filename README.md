@@ -1,5 +1,3 @@
-
-
 # Brownies Smart Shop
 Brownies Smart Shop project for Spring Boot
 
@@ -7,10 +5,15 @@ Brownies Smart Shop project for Spring Boot
 
 ### ⭐ View all menu
 URL : `/menus`
+
 Method : `GET`
+
 **Response**
+
 Code : `200`
+
 Example response :
+
 ```json
 [
 	{
@@ -48,10 +51,15 @@ Example response :
 
 ### ⭐ View menu by ID
 URL : `/menus/{id}`
+
 Method : `GET`
+
 **Response**
+
 Code : `200`
+
 Example response :
+
 ```json
 {
 	"name": "Set B",
@@ -67,28 +75,46 @@ Example response :
 
 ### ⭐ Add menu to cart
 URL : `/menus/{id}`
+
 Method : `POST`
+
 **Response**
+
 Code : `200`
+
 Example body :
+
 `No body required`
+
 Example response :
+
 `"Set C" has been added to the cart.`
 
 ### ⭐ View cart
 URL : `/cart`
+
 Method : `GET`
+
 **Response**
+
 Code : `200`
+
 Example response :
+
 `Total number of items in cart is 1 ("Set C", ). Total price is 89.00`
 
 ### ⭐ View orders
+
 URL : `/orders`
+
 Method : `GET`
+
 **Response**
+
 Code : `200`
+
 Example response :
+
 ```json
 [
 	{
@@ -113,10 +139,15 @@ Example response :
 
 ### ⭐ View order by ID
 URL : `/orders`
+
 Method : `POST`
+
 **Response**
+
 Code : `200`
+
 Example response :
+
 ```json
 {
 	"id": 1,
@@ -138,22 +169,36 @@ Example response :
 
 ### ⭐ Create order
 URL : `/orders`
+
 Method : `POST`
+
 **Response**
+
 Code : `200`
+
 Example body :
+
 `Passawit`
+
 Example response :
+
 `Order 73 has been placed.`
 
 ### ⭐ Delete order
 URL : `/orders`
+
 Method : `DELETE`
+
 **Response**
+
 Code : `202`
+
 Example body :
+
 `No body required`
+
 Example response :
+
 `Order 73 has been cancelled.`
 
 ## 👨‍💻 Author
