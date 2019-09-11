@@ -50,7 +50,7 @@ public class OrderController {
     for (BrownieMenu menu : cart) {
       toString.append(String.format("\"%s\", ", menu.getName()));
     }
-    toString.append(String.format(") Total: %.2f", totalPrice));
+    toString.append(String.format("). Total price is %.2f", totalPrice));
     return toString.toString();
   }
 
@@ -66,7 +66,7 @@ public class OrderController {
   }
 
   @PostMapping("/orders")
-  public ResponseEntity<Object> createOrder(@RequestBody String customerName) {
+  public String createOrder(@RequestBody String customerName) {
     BrownieOrder brownieOrder = new BrownieOrder(customerName, cart, totalPrice);
     BrownieOrder savedBrownieOrder = orderRepository.save(brownieOrder);
 
@@ -75,12 +75,14 @@ public class OrderController {
     cart.clear();
     totalPrice = 0;
 
-    return ResponseEntity.created(location).build();
+    return String.format("Order %d has been placed.", brownieOrder.getId());
   }
 
   @DeleteMapping("/orders/{id}")
-  public void deleteOrder(@PathVariable long id) {
+  public String deleteOrder(@PathVariable long id) {
     orderRepository.deleteById(id);
+
+    return String.format("Order %d has been cancelled.", id);
   }
 
 }
