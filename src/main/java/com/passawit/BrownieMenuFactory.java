@@ -1,5 +1,8 @@
 package com.passawit;
 
+import com.passawit.models.Brownie;
+import com.passawit.models.BrownieMenu;
+
 public class BrownieMenuFactory {
   public static final BrownieMenu[] BROWNIE_MENUS = new BrownieMenu[] {
     new BrownieMenu("Set A", "A swirl brownies set include Tahini swirl, Condensed milk and Jam.", new Brownie[] {

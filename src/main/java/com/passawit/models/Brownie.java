@@ -1,6 +1,8 @@
-package com.passawit;
+package com.passawit.models;
 
-public class Brownie {
+import java.io.Serializable;
+
+public class Brownie implements Serializable {
   private static final String[] ALL_TOPPINGS = new String[] {
     "Original",
     "Tahini swirl",

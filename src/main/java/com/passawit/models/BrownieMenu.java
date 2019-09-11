@@ -1,6 +1,8 @@
-package com.passawit;
+package com.passawit.models;
 
-public class BrownieMenu {
+import java.io.Serializable;
+
+public class BrownieMenu implements Serializable {
   private String name;
   private String details;
   private Brownie[] brownies;
