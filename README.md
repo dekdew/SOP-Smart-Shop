@@ -138,9 +138,9 @@ Example response :
 ```
 
 ### ⭐ View order by ID
-URL : `/orders`
+URL : `/orders/{id}`
 
-Method : `POST`
+Method : `GET`
 
 **Response**
 
